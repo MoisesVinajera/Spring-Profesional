@@ -9,7 +9,7 @@ on:
 env:
   POSTGRESQL_VERSION: 13.1
   POSTGRESQL_DB: amigoscode
-  POSTGRESQL_USER: postgres
+  POSTGRESQL_USER: blueghost
   POSTGRESQL_PASSWORD: password
   JAVA_VERSION: 1.15
 

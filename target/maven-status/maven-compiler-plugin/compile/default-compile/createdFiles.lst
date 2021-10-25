@@ -1,8 +1,0 @@
-com\example\SpringProfessional\SpringProfessionalApplication.class
-com\example\SpringProfessional\exceptions\BadRequestException.class
-com\example\SpringProfessional\student\StudentController.class
-com\example\SpringProfessional\student\StudentRepository.class
-com\example\SpringProfessional\exceptions\StudentNotFoundException.class
-com\example\SpringProfessional\student\Student.class
-com\example\SpringProfessional\student\Gender.class
-com\example\SpringProfessional\student\StudentService.class
