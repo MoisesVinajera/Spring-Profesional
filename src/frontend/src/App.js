@@ -225,7 +225,9 @@ function App() {
             </Content>
             <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
             <Divider>
-                <a href="https://amigoscode.com">
+                <a 
+                    target="_blank"
+                    href="https://amigoscode.com">
                     Click here!!
                 </a>
             </Divider>
