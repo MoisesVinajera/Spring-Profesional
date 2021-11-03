@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import React , {useState, useEffect} from 'react';
 import {deleteStudent, getAllStudents} from "./client";
 import {
     Layout,
@@ -11,7 +11,9 @@ import {
     Badge,
     Tag,
     Avatar,
-    Radio, Popconfirm
+    Radio, 
+    Popconfirm,
+    Divider
 } from 'antd';
 
 import {
@@ -223,6 +225,14 @@ function App() {
             </Content>
             <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
         </Layout>
+        <Divider>
+                <a 
+                    rel ="noopener noreferrer"
+                    target="_blank"
+                    href="https://amigoscode.com">
+                    Click here!!
+                </a>
+        </Divider>
     </Layout>
 }
 
