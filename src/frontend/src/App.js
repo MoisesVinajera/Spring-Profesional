@@ -227,6 +227,7 @@ function App() {
         </Layout>
         <Divider>
                 <a 
+                    rel ="noopener noreferrer"
                     target="_blank"
                     href="https://amigoscode.com">
                     Click here!!
