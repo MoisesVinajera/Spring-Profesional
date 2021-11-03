@@ -224,8 +224,7 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
-        </Layout>
-        <Divider>
+            <Divider>
                 <a 
                     rel ="noopener noreferrer"
                     target="_blank"
@@ -233,6 +232,8 @@ function App() {
                     Click here!!
                 </a>
         </Divider>
+        </Layout>
+
     </Layout>
 }
 
