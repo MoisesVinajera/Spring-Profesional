@@ -10,7 +10,7 @@ class SpringProfessionalApplicationTests {
 	@Test
 	void contextLoads() {
 
-		//Assertions.fail("Ooops test fail");
+		Assertions.fail("Ooops test fail");
 	}
 
 }
