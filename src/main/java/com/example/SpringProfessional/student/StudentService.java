@@ -1,13 +1,11 @@
 package com.example.SpringProfessional.student;
 
-import com.example.SpringProfessional.exceptions.BadRequestException;
-import com.example.SpringProfessional.exceptions.StudentNotFoundException;
+import com.example.SpringProfessional.student.exceptions.BadRequestException;
+import com.example.SpringProfessional.student.exceptions.StudentNotFoundException;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @AllArgsConstructor
 @Service
