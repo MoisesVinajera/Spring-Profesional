@@ -22,11 +22,13 @@ class StudentRepositoryTest {
         Student student = new Student(
                 "Jamila",
                 email,
-                Gender.FEMALE
+                Gender.FEMALE,
+                20
+
         );
         underTest.save(student);
         //When
-        Boolean expected = underTest.selectExistsEmail(email );
+        Boolean expected = underTest.selectExistsEmail(email);
         //Then
         assertThat(expected).isTrue();
     }

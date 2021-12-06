@@ -46,7 +46,8 @@ class StudentServiceTest {
         Student student = new Student(
                 "Jamila",
                 "jamila@gmail.com",
-                Gender.FEMALE
+                Gender.FEMALE,
+                20
         );
 
         //When
@@ -70,7 +71,8 @@ class StudentServiceTest {
         Student student = new Student(
                 "Jamila",
                 "jamila@gmail.com",
-                Gender.FEMALE
+                Gender.FEMALE,
+                20
         );
         given(studentRepository.selectExistsEmail(student.getEmail()))
                 .willReturn(true);

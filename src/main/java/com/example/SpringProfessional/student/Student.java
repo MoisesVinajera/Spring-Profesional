@@ -7,7 +7,10 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
-
+/**
+ * Representa a la entidad de los estudiantes, se mapea a una tabla en la base de datos y contiene las
+ * validaciones de los atributos de la clase Student.
+ */
 @ToString
 @Getter
 @Setter
@@ -42,9 +45,14 @@ public class Student {
     @Column(nullable = false)
     private Gender gender;
 
-    public Student(String name, String email, Gender gender) {
+    @NotNull
+    @Column(nullable = false)
+    private Integer age;
+
+    public Student(String name, String email, Gender gender, Integer age) {
         this.name = name;
         this.email = email;
         this.gender = gender;
+        this.age = age;
     }
 }

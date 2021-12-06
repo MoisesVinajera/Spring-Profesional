@@ -55,7 +55,8 @@ public class StudentIT {
                 name,
                 String.format("%s@amigoscode.edu",
                         StringUtils.trimAllWhitespace(name.trim().toLowerCase())),
-                Gender.FEMALE
+                Gender.FEMALE,
+                20
                 );
         //when
         ResultActions resultActions = mockMvc
@@ -85,7 +86,8 @@ public class StudentIT {
         Student student = new Student(
                 name,
                 email,
-                Gender.FEMALE
+                Gender.FEMALE,
+                20
         );
 
         mockMvc.perform(post("/api/v1/students")
